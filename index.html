@@ -6,26 +6,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Brodie Wright">
         <title> 2007 GMC Yukon Vortec Max </title>
-        <link rel="stylesheet" href="indexstyles.css">
+        <link rel="stylesheet" href="/Styles/indexstyles.css">
     </head>
-     <body>
-        <header class="banner">
-            <h1>2007 Gmc Yukon Vortec Max</h1>
-        </header> 
-        
+     <body> 
+        <!-- Sticky Navigation Menu -->
         <nav class="navbar">
-            <a href="index.html" class="logo">NATURE</a>
+            <a href="index.html" class="logo">Portfolio</a>
             <div class="nav-links" id="navLinks">
                 <a href="index.html">Home</a>
                 <a href="about.html">About Me</a>
-                <a href="citations.html">Citations</a>
+                <a href="#exhaust-video">Exhaust Video</a>
             </div>
             <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
         </nav>
        
+        <header class="banner">
+            <h1>2007 Gmc Yukon Vortec Max</h1>
+        </header> 
+
+       
       
         
-
+        <!-- Images -->
         <section>
             <h2>Images</h2>
             <div class="image-container">
@@ -35,17 +37,16 @@
                         <img src="images/taillights.img" alt="">
             </div>
          </section>
-
-        <section class=" secondary-video">
+        <!-- Video -->
+        <section class="secondary-video" id="exhaust-video">
             <h2>Exhaust Video</h2>
                     <video Controls>
                     <source src="images/Exhaust.vid.mp4" type="video/quicktime">
                     <source src="images/Exhaust.vid.webm"  type="video/webm">
-                    your browser does not support the video tag.
                    </video>
         </section>
 
-
+        <!-- Overveiw -->
         <section class="change-bg">
             <h2> Overveiw</h2>
             <ul>
@@ -63,6 +64,7 @@
             </ul>
         </section>
 
+        <!-- Maintenence -->
         <section class="change-bg">
             <h2>Work Done</h2>
             <ul>
@@ -83,7 +85,7 @@
                 <li> Crossovers </li>
             </ul>
         </section>
-
+        <!-- Reveiws -->
         <section class="reveiw">
             <h2> Reveiw</h2>
         <div class="reveiw-grid">
@@ -111,7 +113,7 @@
             </div>
         </div>
         </section>
-
+        <!-- Button -->
         <section class="change-bg" id="button-section">
            <h2> WAS THIS HELPFUL</h2>
                 <label for="text">Click if yes:</label>
